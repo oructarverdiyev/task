@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4286779C2C73EFC500C8FC50 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A852C709AC3001C6ACF /* APIRequest.swift */; };
+		4286779D2C73EFC500C8FC50 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A872C709AE5001C6ACF /* NetworkClient.swift */; };
+		4286779E2C73EFC500C8FC50 /* URLSessionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A892C709AFC001C6ACF /* URLSessionApiClient.swift */; };
+		4286779F2C73EFC500C8FC50 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A8B2C709B34001C6ACF /* NetworkError.swift */; };
 		4296A2922C6CE9EC0061C2B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4296A2912C6CE9EC0061C2B5 /* AppDelegate.swift */; };
 		4296A29B2C6CE9EF0061C2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4296A29A2C6CE9EF0061C2B5 /* Assets.xcassets */; };
 		4296A29E2C6CE9EF0061C2B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4296A29D2C6CE9EF0061C2B5 /* Base */; };
@@ -48,10 +52,6 @@
 		42F556AA2C71FEFF0068E490 /* ConverterSegmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F556A92C71FEFF0068E490 /* ConverterSegmentType.swift */; };
 		42F556AE2C720C040068E490 /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F556AD2C720C040068E490 /* Date+extension.swift */; };
 		42F556B02C7220770068E490 /* ConverterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F556AF2C7220770068E490 /* ConverterCell.swift */; };
-		42FE3A862C709AC3001C6ACF /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A852C709AC3001C6ACF /* APIRequest.swift */; };
-		42FE3A882C709AE5001C6ACF /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A872C709AE5001C6ACF /* NetworkClient.swift */; };
-		42FE3A8A2C709AFC001C6ACF /* URLSessionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A892C709AFC001C6ACF /* URLSessionApiClient.swift */; };
-		42FE3A8C2C709B34001C6ACF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A8B2C709B34001C6ACF /* NetworkError.swift */; };
 		42FE3A8E2C709FDC001C6ACF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A8D2C709FDC001C6ACF /* HomeViewModel.swift */; };
 		42FE3A912C70A1B4001C6ACF /* ExchangeRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A902C70A1B4001C6ACF /* ExchangeRatesViewController.swift */; };
 		42FE3A932C70A1E6001C6ACF /* ExchangeRatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A922C70A1E6001C6ACF /* ExchangeRatesView.swift */; };
@@ -440,8 +440,7 @@
 				42FE3A892C709AFC001C6ACF /* URLSessionApiClient.swift */,
 				42FE3A8B2C709B34001C6ACF /* NetworkError.swift */,
 			);
-			name = Network;
-			path = "Netüork";
+			path = Network;
 			sourceTree = "<group>";
 		};
 		42FE3A8F2C70A13C001C6ACF /* Converter */ = {
@@ -583,6 +582,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4286779C2C73EFC500C8FC50 /* APIRequest.swift in Sources */,
+				4286779D2C73EFC500C8FC50 /* NetworkClient.swift in Sources */,
+				4286779E2C73EFC500C8FC50 /* URLSessionApiClient.swift in Sources */,
+				4286779F2C73EFC500C8FC50 /* NetworkError.swift in Sources */,
 				4296A2AD2C6CF0250061C2B5 /* AppCordinator.swift in Sources */,
 				4296A2CD2C6E5A860061C2B5 /* HomeView.swift in Sources */,
 				4296A2D42C6E67A40061C2B5 /* UIView+extension.swift in Sources */,
@@ -608,7 +611,6 @@
 				42F556A12C71E69E0068E490 /* RegisterViewModel.swift in Sources */,
 				42FE3A8E2C709FDC001C6ACF /* HomeViewModel.swift in Sources */,
 				42FE3A982C70A284001C6ACF /* ViewControllerTopView.swift in Sources */,
-				42FE3A862C709AC3001C6ACF /* APIRequest.swift in Sources */,
 				4296A2DF2C6E74E50061C2B5 /* Notification+extension.swift in Sources */,
 				4296A2DA2C6E6E250061C2B5 /* ViewModel.swift in Sources */,
 				42B0A5B52C7273220018335E /* ConverterCellViewModel.swift in Sources */,
@@ -631,10 +633,7 @@
 				4296A2CB2C6E5A4D0061C2B5 /* HomeViewController.swift in Sources */,
 				4296A2B32C6CF4200061C2B5 /* AppDelegateRouter.swift in Sources */,
 				4296A2DC2C6E6E450061C2B5 /* User.swift in Sources */,
-				42FE3A8C2C709B34001C6ACF /* NetworkError.swift in Sources */,
-				42FE3A8A2C709AFC001C6ACF /* URLSessionApiClient.swift in Sources */,
 				42CC28082C737F9F00052A82 /* BottomSheetViewController.swift in Sources */,
-				42FE3A882C709AE5001C6ACF /* NetworkClient.swift in Sources */,
 				42B0A5B72C7273500018335E /* ValuteType.swift in Sources */,
 				42F556A72C71FE5B0068E490 /* ConverterViewModel.swift in Sources */,
 				42B0A5B92C727C650018335E /* Double+extension.swift in Sources */,
