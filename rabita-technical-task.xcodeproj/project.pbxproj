@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26EA98FCB1D934F82763D8F3 /* Pods_rabita_technical_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8609A68CBC4040DFA181E68A /* Pods_rabita_technical_task.framework */; };
 		4286779C2C73EFC500C8FC50 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A852C709AC3001C6ACF /* APIRequest.swift */; };
 		4286779D2C73EFC500C8FC50 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A872C709AE5001C6ACF /* NetworkClient.swift */; };
 		4286779E2C73EFC500C8FC50 /* URLSessionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A892C709AFC001C6ACF /* URLSessionApiClient.swift */; };
@@ -41,7 +42,6 @@
 		42B0A5BC2C72A0E20018335E /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B0A5BB2C72A0E20018335E /* Debouncer.swift */; };
 		42BB708F2C73C77B002AE613 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB708E2C73C77B002AE613 /* Alerts.swift */; };
 		42BB70922C73DD65002AE613 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB70912C73DD65002AE613 /* Alert.swift */; };
-		42CC28062C737F3700052A82 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 42CC28052C737F3700052A82 /* FloatingPanel */; };
 		42CC28082C737F9F00052A82 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CC28072C737F9F00052A82 /* BottomSheetViewController.swift */; };
 		42CC280B2C73802000052A82 /* CompleteLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CC280A2C73802000052A82 /* CompleteLayout.swift */; };
 		42CC280D2C73807600052A82 /* BottomSheetLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CC280C2C73807600052A82 /* BottomSheetLayout.swift */; };
@@ -61,7 +61,6 @@
 		42FE3A9F2C70D87E001C6ACF /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3A9E2C70D87E001C6ACF /* UIStackView.swift */; };
 		42FE3AA12C70DA3A001C6ACF /* ExchangeRateCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3AA02C70DA3A001C6ACF /* ExchangeRateCellViewModel.swift */; };
 		42FE3AA52C710423001C6ACF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3AA42C710423001C6ACF /* Currency.swift */; };
-		42FE3AAC2C710779001C6ACF /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = 42FE3AAB2C710779001C6ACF /* SWXMLHash */; };
 		42FE3AB12C71118D001C6ACF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3AB02C71118D001C6ACF /* BaseViewController.swift */; };
 		42FE3AB32C7114DB001C6ACF /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3AB22C7114DB001C6ACF /* ResponseType.swift */; };
 		42FE3AB62C71592B001C6ACF /* ExchangeSegmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3AB52C71592B001C6ACF /* ExchangeSegmentType.swift */; };
@@ -128,6 +127,9 @@
 		42FE3AB22C7114DB001C6ACF /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		42FE3AB52C71592B001C6ACF /* ExchangeSegmentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeSegmentType.swift; sourceTree = "<group>"; };
 		42FE3AB72C7159A2001C6ACF /* Segmentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segmentable.swift; sourceTree = "<group>"; };
+		5FC89ACC21F04E10B92FCEE3 /* Pods-rabita-technical-task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rabita-technical-task.debug.xcconfig"; path = "Target Support Files/Pods-rabita-technical-task/Pods-rabita-technical-task.debug.xcconfig"; sourceTree = "<group>"; };
+		8609A68CBC4040DFA181E68A /* Pods_rabita_technical_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rabita_technical_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1593AB03BB667E67BD8160 /* Pods-rabita-technical-task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rabita-technical-task.release.xcconfig"; path = "Target Support Files/Pods-rabita-technical-task/Pods-rabita-technical-task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FE3AAC2C710779001C6ACF /* SWXMLHash in Frameworks */,
-				42CC28062C737F3700052A82 /* FloatingPanel in Frameworks */,
+				26EA98FCB1D934F82763D8F3 /* Pods_rabita_technical_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +170,8 @@
 			children = (
 				4296A2902C6CE9EC0061C2B5 /* rabita-technical-task */,
 				4296A28F2C6CE9EC0061C2B5 /* Products */,
+				9FA5E0524625BEC5002CFACD /* Pods */,
+				84176FC865304803952B77FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -504,6 +507,23 @@
 			path = Exchange;
 			sourceTree = "<group>";
 		};
+		84176FC865304803952B77FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8609A68CBC4040DFA181E68A /* Pods_rabita_technical_task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FA5E0524625BEC5002CFACD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FC89ACC21F04E10B92FCEE3 /* Pods-rabita-technical-task.debug.xcconfig */,
+				9A1593AB03BB667E67BD8160 /* Pods-rabita-technical-task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,19 +531,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4296A2A22C6CE9EF0061C2B5 /* Build configuration list for PBXNativeTarget "rabita-technical-task" */;
 			buildPhases = (
+				3422AE4CAA04BC52A923E490 /* [CP] Check Pods Manifest.lock */,
 				4296A28A2C6CE9EC0061C2B5 /* Sources */,
 				4296A28B2C6CE9EC0061C2B5 /* Frameworks */,
 				4296A28C2C6CE9EC0061C2B5 /* Resources */,
+				3FFB62B66044C3D63C69F3E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "rabita-technical-task";
-			packageProductDependencies = (
-				42FE3AAB2C710779001C6ACF /* SWXMLHash */,
-				42CC28052C737F3700052A82 /* FloatingPanel */,
-			);
 			productName = "rabita-technical-task";
 			productReference = 4296A28E2C6CE9EC0061C2B5 /* rabita-technical-task.app */;
 			productType = "com.apple.product-type.application";
@@ -552,10 +570,6 @@
 				Base,
 			);
 			mainGroup = 4296A2852C6CE9EC0061C2B5;
-			packageReferences = (
-				42FE3AAA2C710779001C6ACF /* XCRemoteSwiftPackageReference "SWXMLHash" */,
-				42CC28042C737F3700052A82 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
-			);
 			productRefGroup = 4296A28F2C6CE9EC0061C2B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -576,6 +590,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3422AE4CAA04BC52A923E490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rabita-technical-task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FFB62B66044C3D63C69F3E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rabita-technical-task/Pods-rabita-technical-task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rabita-technical-task/Pods-rabita-technical-task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rabita-technical-task/Pods-rabita-technical-task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4296A28A2C6CE9EC0061C2B5 /* Sources */ = {
@@ -775,12 +831,14 @@
 		};
 		4296A2A32C6CE9EF0061C2B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC89ACC21F04E10B92FCEE3 /* Pods-rabita-technical-task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8SKN5WNKP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rabita-technical-task/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
@@ -808,12 +866,14 @@
 		};
 		4296A2A42C6CE9EF0061C2B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1593AB03BB667E67BD8160 /* Pods-rabita-technical-task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8SKN5WNKP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rabita-technical-task/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
@@ -861,38 +921,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		42CC28042C737F3700052A82 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SCENEE/FloatingPanel.git";
-			requirement = {
-				kind = exactVersion;
-				version = 2.8.5;
-			};
-		};
-		42FE3AAA2C710779001C6ACF /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/drmohundro/SWXMLHash.git";
-			requirement = {
-				kind = exactVersion;
-				version = 7.0.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		42CC28052C737F3700052A82 /* FloatingPanel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 42CC28042C737F3700052A82 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
-			productName = FloatingPanel;
-		};
-		42FE3AAB2C710779001C6ACF /* SWXMLHash */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 42FE3AAA2C710779001C6ACF /* XCRemoteSwiftPackageReference "SWXMLHash" */;
-			productName = SWXMLHash;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4296A2862C6CE9EC0061C2B5 /* Project object */;
 }
