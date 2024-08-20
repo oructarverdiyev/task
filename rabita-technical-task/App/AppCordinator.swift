@@ -47,10 +47,10 @@ final class AppCoordinator: Coordinator {
   }
   
   @objc private func showHomeView() {
-      clear()
+    clear()
     
-      let coordinator = HomeCoordinator(with: self.router)
-      presentChild(coordinator, animated: true, onDismissed: nil)
+    let coordinator = HomeCoordinator(with: self.router)
+    presentChild(coordinator, animated: true, onDismissed: nil)
   }
   
   @objc private func logout() {

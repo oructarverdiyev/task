@@ -39,7 +39,7 @@ final class ConverterView: UIView {
     fatalError("init(coder:) has not been implemented")
   }
   
-   func setupView() {
+  func setupView() {
     backgroundColor = .white
     
     appendSubview(topView)
